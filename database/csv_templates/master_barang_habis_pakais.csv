@@ -1,0 +1,6 @@
+kode_barang,nama_barang,spesifikasi,satuan,kategori,harga_satuan,keterangan
+HPK001,Kertas A4,80gsm,Rim,ATK,50000,Kertas untuk printer
+HPK002,Pulpen,Hitam,Pcs,ATK,5000,Pulpen tinta hitam
+HPK003,Tissue,2 ply,Box,ART,25000,Tissue untuk toilet
+HPK004,Sabun Cuci,500ml,Botol,ART,15000,Sabun untuk mencuci
+HPK005,Alat Tulis Set,Isi 10,Pcs,ATK,25000,Set alat tulis lengkap 

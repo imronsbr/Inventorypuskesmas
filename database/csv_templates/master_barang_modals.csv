@@ -1,0 +1,6 @@
+kode_barang,nama_barang,satuan,kategori,keterangan
+MDL001,Meja Kerja,Unit,Furniture,Meja kerja untuk staf
+MDL002,Komputer Desktop,Unit,Elektronik,Komputer untuk administrasi
+MDL003,Printer Laser,Unit,Elektronik,Printer untuk dokumen
+MDL004,Kursi Kantor,Unit,Furniture,Kursi untuk staf
+MDL005,AC Split,Unit,Elektronik,AC untuk ruangan 

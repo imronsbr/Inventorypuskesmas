@@ -1,0 +1,4 @@
+kode_barang,nama_barang,spesifikasi,satuan,kategori,harga_satuan,keterangan
+BRG-001,Barang Contoh 1,Spesifikasi barang contoh,Pcs,Kategori A,10000.00,Keterangan barang contoh
+BRG-002,Barang Contoh 2,Spesifikasi barang contoh 2,Botol,Kategori B,15000.00,Keterangan barang contoh 2
+BRG-003,Barang Contoh 3,Spesifikasi barang contoh 3,Rim,Kategori C,25000.00,Keterangan barang contoh 3 

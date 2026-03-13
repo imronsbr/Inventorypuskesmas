@@ -1,0 +1,6 @@
+name,email,password,role_id,nrk
+Admin Utama,admin@puskesmas.com,P@ssw0rd,1,000001
+Supervisor,supervisor@puskesmas.com,P@ssw0rd,2,000002
+Staf Admin,staf@puskesmas.com,P@ssw0rd,3,000003
+Penanggung Jawab Barang,penjab@puskesmas.com,P@ssw0rd,4,000004
+User Biasa,user@puskesmas.com,P@ssw0rd,5,000005 

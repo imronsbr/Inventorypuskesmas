@@ -1,0 +1,180 @@
+# Code Citations
+
+## License: unknown
+https://github.com/Aviithapa/disability_/blob/c23daacdcd627a70c57cafa4813839c8c674ceee/database/migrations/2024_01_08_154449_alter_roles_enum_to_user_table.php
+
+```
+public function up(): void {
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('role');
+
+```
+
+
+## License: unknown
+https://github.com/Aviithapa/disability_/blob/c23daacdcd627a70c57cafa4813839c8c674ceee/database/migrations/2024_01_08_154449_alter_roles_enum_to_user_table.php
+
+```
+public function up(): void {
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('role');
+       
+```
+
+
+## License: unknown
+https://github.com/Aviithapa/disability_/blob/c23daacdcd627a70c57cafa4813839c8c674ceee/database/migrations/2024_01_08_154449_alter_roles_enum_to_user_table.php
+
+```
+public function up(): void {
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('role');
+        });
+
+```
+
+
+## License: unknown
+https://github.com/Aviithapa/disability_/blob/c23daacdcd627a70c57cafa4813839c8c674ceee/database/migrations/2024_01_08_154449_alter_roles_enum_to_user_table.php
+
+```
+public function up(): void {
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('role');
+        });
+   
+```
+
+
+## License: unknown
+https://github.com/Aviithapa/disability_/blob/c23daacdcd627a70c57cafa4813839c8c674ceee/database/migrations/2024_01_08_154449_alter_roles_enum_to_user_table.php
+
+```
+public function up(): void {
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('role');
+        });
+    }
+
+```
+
+
+## License: unknown
+https://github.com/Aviithapa/disability_/blob/c23daacdcd627a70c57cafa4813839c8c674ceee/database/migrations/2024_01_08_154449_alter_roles_enum_to_user_table.php
+
+```
+public function up(): void {
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('role');
+        });
+    }
+   
+```
+
+
+## License: unknown
+https://github.com/Aviithapa/disability_/blob/c23daacdcd627a70c57cafa4813839c8c674ceee/database/migrations/2024_01_08_154449_alter_roles_enum_to_user_table.php
+
+```
+public function up(): void {
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('role');
+        });
+    }
+    public
+```
+
+
+## License: unknown
+https://github.com/Aviithapa/disability_/blob/c23daacdcd627a70c57cafa4813839c8c674ceee/database/migrations/2024_01_08_154449_alter_roles_enum_to_user_table.php
+
+```
+public function up(): void {
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('role');
+        });
+    }
+    public function
+```
+
+
+## License: unknown
+https://github.com/Aviithapa/disability_/blob/c23daacdcd627a70c57cafa4813839c8c674ceee/database/migrations/2024_01_08_154449_alter_roles_enum_to_user_table.php
+
+```
+public function up(): void {
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('role');
+        });
+    }
+    public function down
+```
+
+
+## License: unknown
+https://github.com/Aviithapa/disability_/blob/c23daacdcd627a70c57cafa4813839c8c674ceee/database/migrations/2024_01_08_154449_alter_roles_enum_to_user_table.php
+
+```
+public function up(): void {
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('role');
+        });
+    }
+    public function down():
+```
+
+
+## License: unknown
+https://github.com/Aviithapa/disability_/blob/c23daacdcd627a70c57cafa4813839c8c674ceee/database/migrations/2024_01_08_154449_alter_roles_enum_to_user_table.php
+
+```
+public function up(): void {
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('role');
+        });
+    }
+    public function down(): void
+```
+
+
+## License: unknown
+https://github.com/Aviithapa/disability_/blob/c23daacdcd627a70c57cafa4813839c8c674ceee/database/migrations/2024_01_08_154449_alter_roles_enum_to_user_table.php
+
+```
+public function up(): void {
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('role');
+        });
+    }
+    public function down(): void {
+
+```
+
+
+## License: unknown
+https://github.com/Aviithapa/disability_/blob/c23daacdcd627a70c57cafa4813839c8c674ceee/database/migrations/2024_01_08_154449_alter_roles_enum_to_user_table.php
+
+```
+public function up(): void {
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('role');
+        });
+    }
+    public function down(): void {
+       
+```
+
+
+## License: unknown
+https://github.com/Aviithapa/disability_/blob/c23daacdcd627a70c57cafa4813839c8c674ceee/database/migrations/2024_01_08_154449_alter_roles_enum_to_user_table.php
+
+```
+public function up(): void {
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('role');
+        });
+    }
+    public function down(): void {
+        Schema
+```
+

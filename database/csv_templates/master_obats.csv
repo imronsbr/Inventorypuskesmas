@@ -1,0 +1,6 @@
+kode_obat,nama_obat,satuan,harga_satuan,bentuk,komposisi,kategori,keterangan
+OBT001,Paracetamol,Strip,5000.00,Tablet,Paracetamol 500mg,Analgesik,Obat demam dan sakit kepala
+OBT002,Amoxicillin,Strip,15000.00,Kapsul,Amoxicillin 500mg,Antibiotik,Antibiotik untuk infeksi bakteri
+OBT003,Vitamin C,Box,25000.00,Tablet,Ascorbic Acid 500mg,Vitamin,Vitamin untuk daya tahan tubuh
+OBT004,Omeprazole,Strip,12000.00,Kapsul,Omeprazole 20mg,Antasida,Obat maag dan asam lambung
+OBT005,Ibuprofen,Strip,8000.00,Tablet,Ibuprofen 400mg,Analgesik,Obat anti nyeri dan anti inflamasi 
