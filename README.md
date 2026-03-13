@@ -1,145 +1,141 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# SIMP - Inventorypuskesmas
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**SIMP (Sistem Informasi Manajemen Puskesmas)** is a modern Inventory Management System specifically designed for Public Health Centers (Puskesmas). Built with the latest web technologies, it provides a robust, efficient, and user-friendly platform for tracking medical supplies, medications, and equipment.
 
-## About Laravel
+[![Laravel](https://img.shields.io/badge/Laravel-12.0-FF2D20?style=for-the-badge&logo=laravel)](https://laravel.com)
+[![Vue.js](https://img.shields.io/badge/Vue.js-3.4-4FC08D?style=for-the-badge&logo=vue.js)](https://vuejs.org)
+[![Inertia.js](https://img.shields.io/badge/Inertia.js-2.0-9553E9?style=for-the-badge&logo=inertia)](https://inertiajs.com)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🚀 Technology Stack
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Backup / Core**: Laravel 12 (PHP 8.2+)
+- **Frontend**: Vue 3 with Inertia.js 2.0 (The Modern Monolith)
+- **Styling**: Tailwind CSS & DaisyUI 5
+- **State Management**: Pinia
+- **Database**: MySQL / MariaDB
+- **Key Libraries**:
+  - **Data Visualization**: Chart.js, ECharts, ApexCharts
+  - **Permissions**: Spatie Laravel Permission
+  - **Logging**: Spatie Laravel Activitylog
+  - **Exporting**: Laravel Excel
+  - **Identification**: QR Code & Barcode support (JsBarcode, qrcode, jsqr)
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## ✨ Key Features
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- **Comprehensive Inventory Tracking**: Manage items, stock levels, and expiration dates.
+- **Interactive Dashboard**: Real-time data visualization with beautiful charts and metrics.
+- **Role-Based Access Control (RBAC)**: Manage users and permissions efficiently.
+- **Activity Logging**: Track every change made within the system for audit purposes.
+- **QR & Barcode Support**: Integrated scanning and generation for easy item identification.
+- **Excel Reports**: Export inventory data and reports to Excel format.
+- **Responsive Design**: Fully optimized for various devices and screen sizes.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 🛠️ Development Setup
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Prerequisites
 
-### Premium Partners
+- PHP >= 8.2
+- Composer
+- Node.js & NPM
+- MySQL / MariaDB
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### Installation
 
-## Contributing
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/imronsbr/Inventorypuskesmas.git
+   cd Inventorypuskesmas
+   ```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+2. **Install PHP dependencies**:
+   ```bash
+   composer install
+   ```
 
-## Code of Conduct
+3. **Install JS dependencies**:
+   ```bash
+   npm install
+   ```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+4. **Setup environment variables**:
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
 
-## Security Vulnerabilities
+5. **Configure the database**:
+   Edit the `.env` file with your database credentials.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+6. **Run migrations and seeders**:
+   ```bash
+   php artisan migrate --seed
+   ```
 
-## License
+7. **Compile assets**:
+   ```bash
+   npm run dev
+   ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+8. **Start the server**:
+   ```bash
+   php artisan serve
+   ```
 
-# SIMP - Sistem Informasi Manajemen Puskesmas
+---
 
-## Toast Notification System
+## 🎨 UI Components & Usage
 
-Aplikasi ini menggunakan Vue Toastification untuk menampilkan notifikasi dengan warna yang soft dan cantik. Notifikasi akan muncul di sudut kanan bawah halaman.
+### Toast Notifications
 
-### Cara Penggunaan Toast
+The application uses `vue-toastification` for sleek, non-intrusive notifications.
 
 ```javascript
 import { useToast } from 'vue-toastification'
-
 const toast = useToast()
 
-// Success notification
-toast.success('Data berhasil disimpan!', 'Berhasil')
-
-// Error notification  
-toast.error('Terjadi kesalahan!', 'Gagal')
-
-// Warning notification
-toast.warning('Harap lengkapi semua field!', 'Peringatan')
-
-// Info notification
-toast.info('Fitur ini hanya untuk admin.', 'Informasi')
+// Examples
+toast.success('Data saved successfully!')
+toast.error('An error occurred!')
+toast.warning('Please check your input.')
+toast.info('Feature restricted to admins.')
 ```
 
-### Konfirmasi dengan SweetAlert2
+### Confirmation Dialogs
 
-Untuk konfirmasi, gunakan SweetAlert2 yang akan muncul di tengah halaman:
+Built-in support for `SweetAlert2` confirmation prompts.
 
 ```javascript
 import { useConfirm } from '@/composables/useConfirm.js'
-
 const confirm = useConfirm()
 
 const confirmed = await confirm({
-  title: 'Konfirmasi Hapus',
-  text: 'Apakah Anda yakin ingin menghapus data ini?',
+  title: 'Delete Confirmation',
+  text: 'Are you sure you want to delete this record?',
   icon: 'warning',
-  confirmButtonText: 'Ya, Hapus',
-  cancelButtonText: 'Batal'
+  confirmButtonText: 'Yes, Delete',
+  cancelButtonText: 'Cancel'
 })
 
 if (confirmed) {
-  // Proses hapus data
+  // Proceed with deletion logic
 }
 ```
 
-### Warna Toast
+### Standard UI Guidelines
 
-- **Success**: Hijau soft dengan gradient
-- **Error**: Merah soft dengan gradient  
-- **Warning**: Kuning soft dengan gradient
-- **Info**: Biru soft dengan gradient
+- **Typography**: Optimized font sizes (12px labels, 14px content).
+- **Consistency**: Unified spacing (16px form control margins) and DaisyUI themes.
+- **Performance**: High-performance data tables using TanStack Table.
 
-Semua toast memiliki efek hover dan animasi slide-in dari kanan bawah.
+---
 
-## Input Styling
+## 📄 License
 
-Aplikasi menggunakan input fields dengan styling yang rapi dan konsisten:
-
-### Form Controls
-- **Spacing**: 16px margin bottom antar form control
-- **Labels**: 14px font, medium weight, gray-700
-- **Helper Text**: 12px font, gray-500
-
-### Buttons
-- **Default**: 14px font, medium weight
-- **Small**: 32px height, 12px font
-- **Large**: 48px height, 16px font
-
-### Tables
-- **Font Size**: 14px untuk konten
-- **Headers**: 12px font, semibold, gray-700
-- **Padding**: 8px vertical, 12px horizontal
-- **Background**: Gray-50 untuk header
-
-### Modal
-- **Max Width**: Medium size untuk tampilan yang rapi
-- **Responsive**: Menyesuaikan dengan konten
-- **Consistent Layout**: Form controls tersusun rapi
-
-Semua input fields menggunakan styling default dari DaisyUI dengan penyesuaian spacing dan typography yang konsisten.
+This project is licensed under the [MIT License](LICENSE).
